@@ -1,9 +1,11 @@
 import './App.css'
 import { cv } from './data/cv'
+import { ThemeToggle } from './theme/ThemeToggle'
 
 function App() {
   return (
     <div className="portfolio-wrapper">
+      <ThemeToggle />
       {/* Hero Section */}
       <section className="glass-card section-hero">
         <div className="hero-content">
@@ -97,4 +99,3 @@ function App() {
 }
 
 export default App
-
